@@ -12,14 +12,14 @@ $transientTokenJWK = $transientToken;
 	$clientReferenceInformation = new CyberSource\Model\Ptsv2paymentsClientReferenceInformation($clientReferenceInformationArr);
 
 	$orderInformationAmountDetailsArr = [
-			"totalAmount" => "0.10",
+			"totalAmount" => "0.11",
 			"currency" => "GBP"
 	];
 	$orderInformationAmountDetails = new CyberSource\Model\Ptsv2paymentsOrderInformationAmountDetails($orderInformationAmountDetailsArr);
 
 	$orderInformationBillToArr = [
 			"firstName" => "Robert",
-			"lastName" => "Annett",
+			"lastName" => "RKings",
 			"address1" => "201 S. Division St.",
 			"locality" => "Ann Arbor",
 			"administrativeArea" => "MI",
