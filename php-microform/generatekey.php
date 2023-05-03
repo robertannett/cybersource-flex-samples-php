@@ -10,7 +10,7 @@
 	$api_instance = new CyberSource\Api\KeyGenerationApi($apiclient);
 	$flexRequestArr = [
 	"encryptionType" => "RsaOaep256",
-	"targetOrigin" => "http://localhost:8000",
+	"targetOrigin" => "https://barclays.sitestage.xyz",
 	];
 	
 	$keyResponse = list($response, $statusCode, $httpHeader)=null;
