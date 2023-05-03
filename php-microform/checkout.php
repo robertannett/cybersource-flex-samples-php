@@ -62,9 +62,12 @@ include 'generatekey.php';
                         <div class="form-group col-md-6">
                             <label for="expYear">Expiry year</label>
                             <select id="expYear" class="form-control">
-                                <option>2021</option>
-                                <option>2022</option>
                                 <option>2023</option>
+                                <option>2024</option>
+                                <option>2025</option>
+                                <option>2026</option>
+                                <option>2027</option>
+                                <option>2028</option>
                             </select>
                         </div>
                     </div>
